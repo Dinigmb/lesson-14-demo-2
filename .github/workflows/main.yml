@@ -27,7 +27,7 @@ jobs:
 
       #Install Dependencies
       - name: Install Dependencies
-      run: npm install
+        run: npm install
 
       - name: Lint Code
         run: npm run lint
